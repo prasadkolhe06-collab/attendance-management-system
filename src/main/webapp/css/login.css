@@ -1,0 +1,147 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Updated to match your Dashboard's deep blue palette */
+    background: linear-gradient(135deg, #1a2238 0%, #2c4a9a 100%);
+}
+
+.login-wrapper {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Modern Card Design */
+.login-card {
+    background: #ffffff;
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+.login-header h2 {
+    color: #1a2238;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.login-header p {
+    color: #636e72;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+/* Form Layout */
+.login-form {
+    text-align: left;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    color: #2d3436;
+    margin-bottom: 8px;
+}
+
+/* Input & Select Styling */
+.input-group input, 
+.input-group select {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #dfe6e9;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #2d3436;
+    transition: all 0.3s ease;
+    background-color: #fafafa;
+}
+
+.input-group input:focus, 
+.input-group select:focus {
+    border-color: #2c4a9a;
+    outline: none;
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgba(44, 74, 154, 0.1);
+}
+
+/* Options Area */
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    font-size: 13px;
+}
+
+.remember-me {
+    color: #636e72;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.forgot-link {
+    color: #2c4a9a;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.forgot-link:hover {
+    text-decoration: underline;
+}
+
+/* Dashboard-Blue Button */
+.login-btn {
+    width: 100%;
+    padding: 14px;
+    background-color: #2c4a9a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.1s ease;
+}
+
+.login-btn:hover {
+    background-color: #1a2238;
+}
+
+.login-btn:active {
+    transform: scale(0.98);
+}
+
+/* Footer Section */
+.login-footer {
+    margin-top: 30px;
+    border-top: 1px solid #f1f1f1;
+    padding-top: 20px;
+}
+
+.login-footer p {
+    font-size: 12px;
+    color: #b2bec3;
+    letter-spacing: 0.5px;
+}
